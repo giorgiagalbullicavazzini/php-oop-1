@@ -66,6 +66,7 @@ $movies = [$sette_anime, $miglio_verde, $spotlight, $shutter_island];
                         }
                     }
 
+                    // Break line after each movie
                     echo nl2br("\n");
                 }
             ?>
