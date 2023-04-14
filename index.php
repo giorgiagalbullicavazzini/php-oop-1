@@ -8,7 +8,7 @@ class Movie {
     public $genre;
     public $vote;
 
-    // Class methods
+    // Class Methods
     public function setVote() {
         $this -> vote = rand(0, 100);
     }
