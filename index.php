@@ -59,10 +59,14 @@ $movies = [$sette_anime, $miglio_verde, $spotlight, $shutter_island];
                             foreach ($value as $genre) {
                                 echo $genre, ' - ';
                             };
+                        } elseif ($key == 'vote') {
+                            echo $value;
                         } else {
                             echo $value, ' - ';
                         }
                     }
+
+                    echo nl2br("\n");
                 }
             ?>
         </div>
